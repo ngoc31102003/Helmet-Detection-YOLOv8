@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  🛡️ Helmet Detection using YOLOv8
+  Helmet Detection using YOLOv8
   <br>
 </h1>
 
@@ -222,3 +222,4 @@ albumentations>=1.0.0
 tqdm>=4.60.0
 pandas>=1.1.0
 PyYAML>=5.4.0
+
