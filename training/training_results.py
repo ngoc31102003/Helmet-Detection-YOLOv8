@@ -47,7 +47,9 @@ model_path = os.path.join(post_training_path, 'weights', 'best.pt')
 
 if os.path.exists(model_path):
     print("\nĐang tải mô hình và đánh giá trên tập validation...")
-    Valid_model = YOLO(model_path)
+    Valid_model = YOLO(r"C:\Users\admin\PycharmProjects\Hoc_DL_CV\Helmet-Detection-YOLOv8\runs\detect\viet_traffic_signs_v8n2\weights\best.pt")
+    Valid_model.val(split="val", data=r"C:\Users\admin\PycharmProjects\Hoc_DL_CV\Helmet-Detection-YOLOv8\datasets_doi_mu_bao_hiem_new\dataset.yaml")
+
 
     metrics = Valid_model.val(split='val')
 
