@@ -1,0 +1,9 @@
+names:
+- Co doi mu bao hiem
+- Nguoi lai xe may
+- Khong doi mu bao hiem
+- Bien so xe
+path: /root/yolov8/datasets_doi_mu_bao_hiem_new_1/
+test: test/images
+train: train/images
+val: valid/images
