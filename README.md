@@ -127,7 +127,7 @@ This project implements a **real-time helmet detection system** using YOLOv8 for
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/Helmet-Detection-YOLOv8.git
+git clone https://github.com/ngoc31102003/Helmet-Detection-YOLOv8.git
 cd Helmet-Detection-YOLOv8
 
 # Install dependencies
@@ -220,5 +220,6 @@ albumentations>=1.0.0
 tqdm>=4.60.0
 pandas>=1.1.0
 PyYAML>=5.4.0
+
 
 
