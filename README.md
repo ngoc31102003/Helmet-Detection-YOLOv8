@@ -198,7 +198,7 @@ Helmet-Detection-YOLOv8/
 │   └── val_batch*_.jpg
 └── 📄 requirements.txt
 🚀 Key Features
-Real-time Detection: 30 FPS on GPU
+Real-time Detection: 15 FPS on GPU
 
 Multi-format Export: PyTorch, ONNX, TensorRT support
 
@@ -220,6 +220,7 @@ albumentations>=1.0.0
 tqdm>=4.60.0
 pandas>=1.1.0
 PyYAML>=5.4.0
+
 
 
 
